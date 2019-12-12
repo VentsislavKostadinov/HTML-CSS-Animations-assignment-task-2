@@ -1,0 +1,319 @@
+@import url("https://fonts.googleapis.com/css?family=Staatliches");
+@import url("https://fonts.googleapis.com/css?family=Pacifico");
+/* Parrots section */
+#parrots {
+  position: relative;
+  display: inline-block;
+}
+#parrots:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+  background: -webkit-linear-gradient(left, #d2ff52 0%, #91e842 100%);
+  opacity: 0.3;
+}
+#parrots .card {
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 0;
+  border: none;
+}
+#parrots .card .img-fluid {
+  height: 100vh;
+}
+#parrots .card .card-img-overlay h4 {
+  text-align: center;
+  padding-top: 240px;
+  font-family: Pacifico, sans-serif;
+}
+#parrots .card .card-img-overlay h4:after {
+  display: inline-block;
+  margin: 0 0 8px 20px;
+  height: 3px;
+  content: " ";
+  text-shadow: none;
+  background-color: #ffffff;
+  width: 100px;
+}
+#parrots .card .card-img-overlay h4:before {
+  display: inline-block;
+  margin: 0 20px 8px 0;
+  height: 3px;
+  content: " ";
+  text-shadow: none;
+  background-color: #ffffff;
+  width: 100px;
+}
+#parrots .card .card-img-overlay h2 {
+  font-family: Staatliches, sans-serif;
+  text-align: center;
+  width: 906px;
+  margin: auto;
+}
+#parrots .card #square-1 {
+  position: relative;
+  width: 50px;
+  height: 50px;
+  background-color: #13C099;
+  transform: rotate(45deg);
+  margin-top: -217px;
+  margin-left: 56px;
+}
+#parrots .card #square-2 {
+  position: relative;
+  width: 80px;
+  height: 80px;
+  background-color: #13C099;
+  transform: rotate(45deg);
+  margin-top: -122px;
+  margin-right: 370px;
+  float: right;
+}
+#parrots .card #square-3 {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  background-color: #13C099;
+  transform: rotate(45deg);
+  margin-top: 220px;
+  margin-right: 96px;
+  float: right;
+}
+
+/* Flamingo */
+#flamingo {
+  background-color: #ffffff;
+}
+#flamingo #square-4 {
+  position: relative;
+  width: 50px;
+  height: 50px;
+  background-color: #13C099;
+  transform: rotate(45deg);
+  margin-top: 90px;
+  margin-left: 56px;
+}
+#flamingo ::placeholder {
+  color: lightgreen;
+  font-size: 15px;
+  letter-spacing: 1px;
+}
+#flamingo article {
+  margin-left: -350px;
+}
+#flamingo article .btn-success {
+  width: 250px;
+  height: 35px;
+  border-radius: 15px;
+  border: 1px solid #1fc8db;
+  background-color: #1fc8db;
+  background-image: linear-gradient(141deg, #9fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
+  letter-spacing: 1px;
+  margin-left: -240px;
+}
+#flamingo article h5 {
+  text-align: center;
+  font-size: 15px;
+  font-family: Pacifico, sans-serif;
+}
+#flamingo article h5:after {
+  display: inline-block;
+  margin: 0 0 8px 20px;
+  height: 3px;
+  content: " ";
+  text-shadow: none;
+  background-color: #000000;
+  width: 50px;
+}
+#flamingo article h5:before {
+  display: inline-block;
+  margin: 0 20px 8px 0;
+  height: 3px;
+  content: " ";
+  text-shadow: none;
+  background-color: #000000;
+  width: 50px;
+}
+#flamingo article h3 {
+  color: #238BAA;
+  text-align: center;
+  width: 511px;
+  margin: auto;
+  font-size: 19px;
+}
+#flamingo article .form-control {
+  width: 372px;
+  height: 40px;
+  color: lightgreen;
+  border: 1px solid lightgreen;
+  border-radius: 20px;
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+}
+#flamingo article .card {
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 0;
+  border: none;
+}
+#flamingo article .card .img-fluid {
+  width: 24%;
+  height: 20%;
+  margin-right: 113px;
+  margin-top: -280px;
+  float: right;
+}
+#flamingo article .card #square-5 {
+  position: relative;
+  width: 80px;
+  height: 80px;
+  background-color: #13C099;
+  transform: rotate(45deg);
+  margin-top: -340px;
+  margin-right: 368px;
+  float: right;
+}
+#flamingo article .card #square-6 {
+  position: relative;
+  width: 80px;
+  height: 80px;
+  background-color: #ffffff;
+  margin-top: -8px;
+  margin-right: 384px;
+  float: right;
+}
+#flamingo article .card #square-7 {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  background-color: #13C099;
+  transform: rotate(45deg);
+  margin-top: 20px;
+  margin-right: -422px;
+  float: right;
+}
+#flamingo article .card #btn-1 {
+  width: 50px;
+  height: 50px;
+  border-right: 5px solid #238BAA;
+  border-top: 1px solid #50E3C2;
+  border-left: 1px solid #50E3C2;
+  border-down: 1px solid #50E3C2;
+  top: 315px;
+  background: #50E3C2;
+  color: white;
+  font-size: 40px;
+  float: right;
+  padding-right: 19px;
+  margin-top: -155px;
+  margin-right: 415px;
+}
+#flamingo article .card #btn-2 {
+  width: 50px;
+  height: 50px;
+  border-right: 1px solid #50E3C2;
+  border-top: 1px solid #50E3C2;
+  border-left: 5px solid #238BAA;
+  border-down: 1px solid #50E3C2;
+  top: 315px;
+  background: #50E3C2;
+  color: white;
+  font-size: 40px;
+  float: right;
+  margin-top: -153px;
+  margin-right: 92px;
+}
+#flamingo #vector-shape {
+  opacity: 0.5;
+  width: 35%;
+  margin-left: 200px;
+  margin-top: -80px;
+}
+#flamingo #dotted-pattern {
+  float: right;
+  margin-top: -410px;
+  margin-right: -180px;
+  width: 33%;
+}
+#flamingo #circle {
+  background-color: #238BAA;
+  width: 350px;
+  height: 350px;
+  border: 1px solid #238BAA;
+  border-radius: 50%;
+  float: right;
+  margin-right: -100px;
+  margin-top: -83px;
+}
+
+/* Feathers */
+#feathers {
+  margin-top: -300px;
+  position: relative;
+  display: inline-block;
+}
+#feathers:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+  background: -webkit-linear-gradient(left, #d2ff52 0%, #91e842 100%);
+  opacity: 0.3;
+}
+#feathers h1 {
+  font-family: Staatliches, sans-serif;
+  padding-top: 31px;
+  margin-left: 100px;
+  width: 300px;
+}
+#feathers h6 {
+  width: 300px;
+  margin-left: 100px;
+}
+#feathers .card {
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 0;
+  border: none;
+}
+#feathers .card .img-fluid {
+  height: 100vh;
+}
+#feathers .card #square-8 {
+  position: relative;
+  width: 50px;
+  height: 50px;
+  background-color: #13C099;
+  transform: rotate(45deg);
+  margin-top: 126px;
+  margin-left: 56px;
+}
+#feathers .card #square-9 {
+  position: relative;
+  width: 80px;
+  height: 80px;
+  background-color: #13C099;
+  transform: rotate(45deg);
+  margin-top: -122px;
+  margin-right: 370px;
+  float: right;
+}
+#feathers .card #square-10 {
+  width: 100px;
+  height: 100px;
+  background-color: #13C099;
+  transform: rotate(45deg);
+  float: right;
+  margin-top: 220px;
+  margin-right: 96px;
+}
+
+/*# sourceMappingURL=task2.css.map */
